@@ -110,5 +110,6 @@ Don't forget to run `npm run deploy` after adding a new command!
 **License**
 
 
-Distributed under the ISC License.
+Distributed under the MIT License.
+
 

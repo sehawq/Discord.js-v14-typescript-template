@@ -15,7 +15,7 @@ This is a basic Discord slash command bot foundation built with TypeScript.
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/sehawq/Discord.js-v14-typescript-template.git](https://github.com/sehawq/Discord.js-v14-typescript-template.git)
+git clone https://github.com/sehawq/Discord.js-v14-typescript-template.git
 cd my-slash-bot-ts-en
 ```
 
@@ -111,3 +111,4 @@ Don't forget to run `npm run deploy` after adding a new command!
 
 
 Distributed under the ISC License.
+

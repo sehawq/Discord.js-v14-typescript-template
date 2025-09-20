@@ -1,0 +1,25 @@
+{
+  "name": "my-slash-bot-ts-en",
+  "version": "1.0.0",
+  "description": "A basic Discord slash command bot foundation using TypeScript.",
+  "main": "dist/index.js", 
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon --watch src --ext ts --exec \"ts-node src/index.ts\"", 
+    "deploy": "ts-node src/deploy-commands.ts"  
+  },
+  "keywords": ["discord", "bot", "slash-commands", "typescript", "discord.js"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
